@@ -1,0 +1,6 @@
+{
+  "name": "PulseHR - Employee Attrition AI Analytics",
+  "description": "An AI-powered HR analytics SaaS platform for workforce attrition modeling and flight predictions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
