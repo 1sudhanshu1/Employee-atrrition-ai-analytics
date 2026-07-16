@@ -1,7 +1,7 @@
 /**
  * Netlify serverless function for Attrition Prediction
  */
-exports.handler = async function (event, context) {
+export async function handler(event, context) {
   // CORS Headers
   const headers = {
     'Access-Control-Allow-Origin': '*',
@@ -176,4 +176,4 @@ exports.handler = async function (event, context) {
       body: JSON.stringify({ error: 'Failed to process prediction: ' + error.message })
     };
   }
-};
+}
